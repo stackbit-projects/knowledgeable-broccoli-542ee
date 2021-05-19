@@ -1,0 +1,48 @@
+title: Jekyll Podcaster
+description: A Jekyll Theme designed for Podcasters
+podcast-description: A Jekyll Theme designed for Podcasters. This is your podcast's summary.
+url: ''
+baseurl: ''
+author:
+  name: Alessio Franceschi
+  email: alessiofranceschi2@gmail.com
+  url: 'https://alessiofranceschi.me'
+permalink: '/:title'
+keywords:
+  - podcast
+  - jekyll
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+paginate: 5
+paginate_path: '/page-:num/'
+sass:
+  style: compressed
+  sourcemap: never
+twitter:
+  username: PandaSekh
+  card: summary
+facebook:
+  app_id: null
+logo: /assets/img/Podcast_Cover.png
+social:
+  name: Alessio Franceschi
+  links:
+    - 'https://github.com/PandaSekh'
+    - 'https://twitter.com/PandaSekh'
+    - 'https://www.linkedin.com/in/alessio-franceschi/'
+lang: it
+podcast_title: Jekyll Podcaster
+podcast_author: Alessio Franceschi
+podcast_email: alessiofranceschi2@gmail.com
+podcast_subtitle: A Jekyll Theme designed for Podcasters
+podcast_summary: A Jekyll Theme designed for Podcasters. This is your podcast's summary.
+podcast_description: A Jekyll Theme designed for Podcasters. This is your podcast's description.
+podcast_explicit: 'no'
+podcast_type: serial
+podcast_lang: en
+podcast_launch: '2019-07-20'
+podcast_copyright: '&#xA9;Alessio Franceschi'
+podcast_feed: null
+podcast_artwork: /assets/img/Podcast_Cover.png

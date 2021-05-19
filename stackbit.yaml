@@ -1,0 +1,102 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match: '*'
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: layout
+        label: Layout
+      - type: list
+        name: categories
+        label: Categories
+        items:
+          type: string
+      - type: string
+        name: type
+        label: Type
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: file
+        label: File
+      - type: string
+        name: length
+        label: Length
+      - type: string
+        name: videoid
+        label: Videoid
+  page_1:
+    type: page
+    label: Page 1
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: permalink
+        label: Permalink
+      - type: string
+        name: title
+        label: Title
+  settings:
+    type: data
+    label: Settings
+    file: settings.yml
+    fields:
+      - type: list
+        name: pages
+        label: Pages
+        items:
+          type: object
+          fields:
+            - type: string
+              name: name
+              label: Name
+            - type: string
+              name: link
+              label: Link
+      - type: list
+        name: social
+        label: Social
+        items:
+          type: object
+          fields:
+            - type: string
+              name: icon
+              label: Icon
+            - type: string
+              name: type
+              label: Type
+            - type: string
+              name: link
+              label: Link
+      - type: list
+        name: websites-podcast
+        label: Websites Podcast
+        items:
+          type: object
+          fields:
+            - type: string
+              name: name
+              label: Name
+            - type: string
+              name: link
+              label: Link
+      - type: boolean
+        name: translate-date
+        label: Translate Date
+      - type: boolean
+        name: shownotes
+        label: Shownotes
